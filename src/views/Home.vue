@@ -8,7 +8,10 @@
 <script>
 
 export default {
-  name: 'home',
+  name: 'Home',
   components: {},
+  mounted() {
+    // console.log('home mounted, we can start some animations and have this - ', this);
+  },
 };
 </script>

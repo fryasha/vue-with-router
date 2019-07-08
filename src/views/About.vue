@@ -1,9 +1,17 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
-      <router-link to="/about/foo">foo</router-link> |
-      <router-link to="/about/baz">bar</router-link> |
-      <router-link to="/about/bar">baz</router-link> |
-    <router-view/>
+    <h1>This is an About page</h1>
   </div>
 </template>
+
+
+<script>
+
+export default {
+  name: 'About',
+  components: {},
+  mounted() {
+    // console.log('about mounted, we can start some animations and have this - ', this);
+  },
+};
+</script>
